@@ -8,8 +8,10 @@ html {
 
     /* Hintergrundbild */
     body {
-        background-image: url(img/vineyard.jpg);
-        background-color: #cccccc;
+        background-image: url(../img/vineyard.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
     }
 
 html,
@@ -31,10 +33,14 @@ footer {
     text-align: center;
 }
 
-.content {
+/* Content */
+.content-background {
     background-color: #f5f5f5;
     width: 70%;
     height: 2000px;
-    margin: 10px 0px 10px 0px;
-    
+    margin: 10px auto 10px auto;
+}
+
+.content {
+
 }
