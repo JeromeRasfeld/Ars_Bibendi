@@ -45,6 +45,7 @@ footer {
 .toskana-weine {
     width: 90%;
     margin: 10px auto 10px 2.5%;
+    padding-top: 10px;
 }
 
     /* Tabelle */
@@ -74,22 +75,24 @@ footer {
     table { 
         border-collapse: collapse;
         margin: 10px;
-        width: 80%;
+        width: 95%;
 
         margin: 10px auto 10px 2.5%;
     }
 
 /* Bilder Gallery */
-#gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-    gap: 1em;
+.picture {
+    float: left;
+    width: auto;
+    padding: 5px;
 }
-      
-#gallery > figcaption {
-    grid-column: 1 / -1;
+
+.picture img {
+    width: 400px;
+    height: auto;
 }
 
 .gallery {
-    margin: 10px auto 10px 2.5%;
+
+    margin: 25px auto 10px 2.5%;
 }
