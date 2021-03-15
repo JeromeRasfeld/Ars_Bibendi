@@ -1,5 +1,5 @@
-
-body { background-color:white;
+body {
+        background-color:white;
 }
 
 /* headline erster ordnung */
@@ -14,6 +14,7 @@ h1 {    color:#303030;
 p {     color: #303030;
         font-family:verdana,arial,sans-serif;
         font-size:14px;
+        padding-left: 10px;
 }
 
 /* Tabelle */
