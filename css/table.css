@@ -1,0 +1,25 @@
+th {
+    background-color: #F5F5F5;
+    height: 30px;
+    padding-top: 10px;
+}
+
+td {
+    background-color: #F5F5F5;
+    height: 40px;
+}
+
+th [scope=row] {
+    color: #303030;
+    text-align: right;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #C3AA7D;
+    color: #303030;
+}
+
+table { 
+    border-collapse: collapse;
+    margin: 10px;
+}
