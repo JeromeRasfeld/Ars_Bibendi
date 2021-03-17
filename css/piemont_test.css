@@ -159,8 +159,13 @@ body {
 
     /* headline erster ordnung */
     h1 {
-        font-size:18px;
+        font-size: 20px;
     }
+
+    h2 {
+        font-size: 16px;
+    }
+
     /* paragraph = mengentext */
     p {
         font-size:14px;
