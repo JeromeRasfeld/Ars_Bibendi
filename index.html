@@ -8,42 +8,239 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" href="css/table.css">
+
+    <style>
+      /* Hintergrundbild */
+      body {
+      background-image: url(/img/vineyaed_wine.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      }
+    </style>
   </head>
+
   <body>
-    <header>
-      <img src="img/bildmarke_trans.png" alt="illustration"/>
-        <button href="index.html" class="button">Home</button>
-        <div class="dropdown-anbauregionen">
-          <button class="button">Anbauregionen</button>
-          <div class="dropdown-subitems-anbauregionen">
-            <a href="html/toskana.html">Toskana</a>
-            <a href="html/friaul.html">Friaul</a>
-            <a href="html/venetien.html">Venetien</a>
-            <a href="html/piemont.html">Piemont</a>
-            <a href="html/lombardei.html">Lombardei</a>
-            <a href="html/trentio.html">Trentio</a>
-            <a href="html/marken.html">Marken</a>
-          </div>
-        </div>
-        <button href="unternehmen.html" class="button">Unternehmen</button>
-        <div class="dropdown-kontakt">
-          <button class="button">Kontakt</button>
-          <div class="dropdown-subitems-kontakt">
-            <a href="html/direktkontakt.html">Direktkontakt</a>
-            <a href="html/anfahrt.html">Anfahrt</a>
-          </div>
-        </div>
-    </header>
-
-    <div class="content-background">
-      <div class="content">
-
+      <div class="header">
+            <img src="../img/bildmarke_trans.png" alt="illustration"/>
+            <button class="button"><a href="../index.html">Home</a></button>
+            <div class="dropdown-anbauregionen">
+                <button class="button">Anbauregionen</button>
+                <div class="dropdown-subitems-anbauregionen">
+                    <a href="toskana.html">Toskana</a>
+                    <a href="friaul.html">Friaul</a>
+                    <a href="venetien.html">Venetien</a>
+                    <a href="piemont.html">Piemont</a>
+                    <a href="lombardei.html">Lombardei</a>
+                    <a href="trentio.html">Trentio</a>
+                    <a href="marken.html">Marken</a>
+                </div>
+            </div>
+            <button class="button"><a href="unternehmen.html">Unternehmen</a></button>
+            <div class="dropdown-kontakt">
+                <button class="button">Kontakt</button>
+                <div class="dropdown-subitems-kontakt">
+                    <a href="direktkontakt.html">Direktkontakt</a>
+                    <a href="anfahrt.html">Anfahrt</a>
+                </div>
+            </div>
       </div>
-    </div>
+      
+      <div class="boxes-fade">
+        <div class="row">
+          <div class="col-3 col-s-12 menu">
+          </div>
+            
+          <div class="col-6 col-s-12">
+            <div class="content">
+              <h1>Startseite</h1>
+              <h2>San Martino Alfieri</h2>
+              <p><img src="../img/toskana_grape.jpg" alt="Toskana Traube"></p>
+              <p>Das Schloß der Familie Alfieri überragt und bestimmt den Ort San Martino und ist von den drei Schwestern di San Germano in den letzten 12 Jahren wieder 
+                zu einem Weingut erstem Ranges ausgebaut worden. Bereits seit 1696 wird rund um das Schloß Wein angebaut. Generation um Generation pflegte diese Tradition 
+                und baute das Schloß, die "Citroniera", immer weiter aus. Errichtet worden ist es um 1630 von Antonio Bertola, einem bekannten Feldherrn jener Zeit, und ist 
+                dann unter Mithilfe des Architekten Benedetto Alfieri im Jahre 1760 erneuert und verschönert worden. 1982 erbte Marchesi Casimiro San Martino di San Germano 
+                den gesamten Besitz und erhält seit dem die Weintradition mit der Unterstützung seiner drei Töchter am Leben. Jeder, der einmal nach San Martino kommt, 
+                bewundert das barocke Schloß umgeben von seinen wunderschönen Weinbergen. Der Eigenbesitz an Weinbergen ist so groß, daß nur die besten Trauben für die 
+                eigene Kellerei Verwendung finden, der Rest wird an andere Weinbauern verkauft. So entstehen qualitativ hochwertige Barbera-Rotweine. Der "Rosso" besteht zu 
+                je der Hälfte aus Barbera und Pinot Nero. Da die verschiedenen Trauben Ihre Reife zu unterschiedlichen Zeiten erreichen, werden Sie bis zur Abfüllung getrennt 
+                aufbereitet. Nach der Abfüllung wird der Wein dann noch einige Monate in der Flasche gelagert, so daß er auch einige Jahre gelagert werden kann, aber auch schon 
+                in der Jugend seine volle Pracht entfaltet. Der "La Tota", was im Dialekt in etwa "junge Frau" bedeutet, und der "Alfiera" sind weitere Weine der Schwestern 
+                di San Germano. Man sollte über diese Weine eigentlich nicht viel sagen. Probieren Sie sie einmal, und Sie werden genauso überzeugt sein, wie wir es sind.</p>
+              <table>
+                      <tr>
+                      <td width="200px" align="left"><h2>Bezeichnung</h2></td>
+                      <td width="100px" align="left"><h2>Farbe</h2></td>
+                      <td width="200" align="left"><h2>Qualität</h2></td>
+                      <td width="100px" align="left"><h2>Preis</h2></td>
+                      </tr>
+            
+                      <tr>
+                      <td><p>Roero Arneis, Vigneto San Dalmazzo</p></td>
+                      <td><p>Weißwein</p></td>
+                      <td><p>DOC 2004 - 12%</p></td>
+                      <td><p>14,90 €</p></td>
+                      </tr>
+            
+                      <tr>
+                      <td><p>Barbaresco, Vigneto Cavana</p></td>
+                      <td><p>Rotwein</p></td>
+                      <td><p>DOCG 2001 - 13,5%</p></td>
+                      <td><p>19,90 €</p></td>
+                      </tr>
+            
+                      <tr>
+                      <td><p>Gavi di Gavi, Rusca</p></td>
+                      <td><p>Weißwein</p></td>
+                      <td><p>DOC 2004 - 11,5%</p></td>
+                      <td><p>14,90 €</p></td>
+                      </tr>
+            
+                      <tr>
+                      <td><p>Barbera d'Alba, Ciabot Camerano</p></td>
+                      <td><p>Rotwein</p></td>
+                      <td><p>DOC 2002 - 12,5%</p></td>
+                      <td><p>17,50 €</p></td>
+                      </tr>
+            
+                      <tr>
+                      <td><p>Pinot Grigio</p></td>
+                      <td><p>Weißwein</p></td>
+                      <td><p>DOC 2004 - 12%</p></td>
+                      <td><p>10,90 €</p></td>
+                      </tr>
+            
+                      <tr>
+                      <td><p>Pinot Grigio, barrique</p></td>
+                      <td><p>Weißwein</p></td>
+                      <td><p>DOC 2003 - 12%</p></td>
+                      <td><p>13,95 €</p></td>
+                      </tr>
+              </table>
+              <hr>
+              <h2>Cantina Vietti - Castiglione Falletto</h2>
+              <p><img src="../img/toskana_vineyard.jpg" alt="Toskana Weinfeld"></p>
+              <p>Unter der Regie des Önologen Luca Currado, dem Sohn von Luciana Vietti und Alfredo Currado, und Mario Cordero, dem Schwiegersohn der beiden Gutsbesitzer, 
+                der sich um die Öffentlichkeitsarbeit kümmert, hat sich die Cantina Vietti in den letzten Jahren zu einem stattlichen Weingut gemausert, das im In- und Ausland 
+                einen sehr guten Ruf genießt, besonders was die Qualität und Individualität des Barolo betrifft. Seit vier Generationen stellt die Familie Vietti in dem kleinen 
+                mittelalterlichen Dorf Castiglione Falletto inmitten der besten Anbauzone des Barolo-Gebietes Wein her. Die ganze Familie arbeitet für das Weingut und ist 
+                sich in dem Ziel einig, gemeinsam Weine von stetig steigender Qualität zu produzieren. Alle fühlen sich der Tradition verpflichtet, jeden Wein nur in kleinen 
+                Mengen und jede Lage getrennt zu vinifizieren. Die Cantina Vietti besitzt neun Hektar Weinberge, auf denen verschiedene Spielarten des Nebbiolo für 
+                die Herstellung von Barolo und Barbaresco, und daneben noch Dolcetto, Arneis und Moscato wachsen. Barolo und Barbaresco sind Weine, die je nach Jahrgang 
+                zwischen 8-15 Jahre lagerfähig sind. Der Dolcetto und auch die Weißweine sollten allerdings jung getrunken werden, da sie dann ihre ganze Frische zeigen können.</p>
+              <table>
+                <tr>
+                <td width="200px" align="left"><h2>Bezeichnung</h2></td>
+                <td width="100px" align="left"><h2>Farbe</h2></td>
+                <td width="200" align="left"><h2>Qualität</h2></td>
+                <td width="100px" align="left"><h2>Preis</h2></td>
+                </tr>
+            
+                <tr>
+                <td><p>Barolo, Brunate</p></td>
+                <td><p>Rotwein</p></td>
+                <td><p>DOCG 2001 - 13,5%</p></td>
+                <td><p>34,30 €</p></td>
+                </tr>
+            
+                <tr>
+                <td><p>Dolcetto d`Alba, Boschi di Berr</p></td>
+                <td><p>Rotwein</p></td>
+                <td><p>DOC 2004 - 12,5%</p></td>
+                <td><p>20,60 €</p></td>
+                </tr>
+            
+                <tr>
+                <td><p>Scarzello, Girogio & Fighi, Barolo</p></td>
+                <td><p>Rotwein</p></td>
+                <td><p>DOCG 2005 - 14%</p></td>
+                <td><p>47,95 €</p></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+            
+              
+          <div class="col-3 col-s-12">
+            <div class="aside" style="text-align: left;">
+              <h1>Wein des Monats</h1>
+              <h2 style="padding-left: 10px;">Chianti classico riserva, 2006</h2>
+                <p>Es macht Sinn, daß Giancarlo Sacchet, der Önologe und Miteigentümer des
+                  Gutes von Cesare und Kathrin Canessa, vor zwei Jahren
+                  <span id="dots">...</span><span id="more">
+                    zum "Winemaker ofthe year" bei der "Wine and Spirit Competition" in London 
+                    gewählt wurde. Wahre Meisterschaft manifestiert sich gerade dann, wenn der
+                    Witterungsverlauf alles andere als optimal war. Was dieser Mann aus den
+                    mehr oder weniger problematischen Chianti-Classico-Jahrgängen seit 2001
+                    herausholt, ist atemberaubend. Ab dem 2001er Riserva war schon zu spüren,
+                    was beim 2004er noch eklatanter wird: Durch das Herunterfahren der Erträge
+                    durch scharfe Traubenselektion und durch nachhaltige Extraktion gelingt
+                    diesem Mann ein ungwöhnlich "stoffiger" Wein, der - wie seine Vorgänger -
+                    von der vorsichtigen Reifung in kleinen, frischen Eichenfässern enorm
+                    profiert hat.</span></p>
+                <button onclick="myFunction()" id="myBtn">Mehr lesen</button>
+            </div>
+          </div>
 
-    <footer>
-      Test
-    </footer>
+          <div class="col-3 col-s-12">
+            <div class="aside-map">
+              <h1>Hier findest du uns</h1>
+              <p>Unter <a href="anfahrt.html">Anfahrt</a> findest du auch mehrere Wegbeschreibungen.</p>
+              <div style='height:175px;width:100%;'>
+                <iframe width="100%" height="175" src=https://maps.google.de/maps?hl=de&q=Berufsbildende+Schulen+der+Stadt+Osnabrück%20%20Stüvestraße+35%20Osnabrück&t=&z=7&ie=utf8&iwloc=b&output=embed frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style='height:100%;width:100%;'><a href="http://schulbiologiezentrum-leipzig.de/"  style="font-size:10px;" title="Schule" target="_blank"></a></iframe><p style="text-align:right; margin:0px; padding-top:-10px; line-height:10px;font-size:10px;margin-top: -25px;"><a href=""  style="font-size:10px;" title="" target="_blank"></a></p>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-3 col-s-12">
+            <div class="aside">
+              <h2>Haben sie Fragen?</h2>
+              <p>Schreiben Sie uns einfach dierekt eine Nachricht, dafür müssen Sie nur unser <a href="kontaktformular.html"  style="color: #383838;">Kontaktformular</a> ausfüllen.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+      <div class="footer">
+          <div class="row">
+            <div class="col-3"></div>
+                    <div class="col-2 col-s-6 footer">
+                          <h3>Kontakt</h3>
+                              <li><a href="kontaktformular.html"  style="color: #383838;">Kontaktformular</a></li>
+                              <li><a href="impressum.html">Impressum</a></li>
+                              <li><a href="agb.html">AGB</a></li>
+                      </div>
+                      <div class="col-2 col-s-6 footer">
+                        <h3>Anbauregionen</h3>
+                          <li><a href="toskana.html" style="color: #383838;">Toskana</a></li>
+                          <li><a href="friaul.html">Friaul</a></li>
+                          <li><a href="venetien.html" style="color: #383838;">Venetien</a></li>
+                          <li><a href="piemont.html" style="color: #383838;">Piemont</a></li>
+                          <li><a href="lombardei.html" style="color: #383838;">Lombardei</a></li>
+                          <li><a href="trentio.html">Trentio</a></li>
+                          <li><a href="marken.html" style="color: #383838;">Marken</a></li>
+                      </div>
+                      <div class="col-4 col-s-12 footer">
+                          <h3><a href="../index.html" style="color: #383838;">Ars Bibendi</a></h3>
+                          <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                          <h3 style="padding-left: 10px;">Hier findest du uns auch</h3>
+                          <div style="padding-left: 10px;">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook_icon.png" style="width: 30px;height: auto;"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram_icon.png" style="width: 33px;height: auto;"></a>
+                            <a href="https://www.pinterest.de/" target="_blank"><img src="../img/pinterest_icon.png" style="width: 33px;height: auto;"></a>
+                          </div>
+                      </div>
+          </div>
+        <hr>
+        <p class="copyright">Erstellt von Jerome Rasfeld © 2021</p>
+      </div>
+
+      <script src="../javascript/script.js"></script>
+      <script>
+        AOS.init({
+        duration: 1200,
+        })
+      </script>
   </body>
 </html>
